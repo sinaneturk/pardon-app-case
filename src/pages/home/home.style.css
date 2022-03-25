@@ -1,0 +1,14 @@
+.home-container {
+    padding: 20px;
+}
+
+h6.content-title {
+    font-size: 17px;
+    border-bottom: 1px solid;
+    color: gray;
+}
+
+p.content {
+    text-align: justify;
+    color: gray;
+}

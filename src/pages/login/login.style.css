@@ -1,0 +1,71 @@
+.modal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #9788dd;
+}
+
+.title-dd-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5.login-title {
+    margin-right: 13px;
+    color: white;
+    font-size: 15px;
+}
+
+.close-modal{
+    font-weight: bold;
+}
+
+.close-modal:hover{
+    cursor: pointer;
+}
+
+.local-container .drop-down-locals {
+    top: 70px;
+}
+
+.form-conroller {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0px;
+    color: #faebd7;
+}
+
+input.controller-field {
+    border: none;
+    background-color: #faebd7;
+}
+
+input.controller-field:focus , input.controller-field:focus{
+   background-color: #cfc7bc; 
+   border: none;
+   outline: none;
+}
+
+
+button.login-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #9ba62b;
+    color: whitesmoke;
+  }
+  
+  button.login-btn:hover{
+    cursor: pointer;
+    background-color: whitesmoke ;
+    color: #9ba62b
+  }
+
+  .ReactModalPortal button.login-btn {
+    width: 100%;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 16px;
+}

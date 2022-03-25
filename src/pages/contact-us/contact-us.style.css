@@ -1,0 +1,95 @@
+h6.contact-title {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #9788dd;
+    margin-bottom: 19px;
+}
+.contact-us-container {
+    padding: 20px;
+}
+
+div.contact-form {
+    width: 500px;
+    margin: auto;
+    border: 1px solid lightslategray;
+    padding: 19px 24px;
+}
+
+span.controller-name {
+    color: lightslategray;
+}
+
+.contry-list {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    background-color: #9788dd;
+}
+
+.c-form-conroller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input.c-controller-field {
+    width: 60%;
+    margin-bottom: 7px;
+    height: 20px;
+}
+span.c-controller-name {
+    display: inline-block;
+    width: 25%;
+    color: lightslategray;
+}
+
+input.c-controller-field:focus,
+input.c-controller-field:focus-visible,
+textarea.c-controller-field:focus,
+textarea.c-controller-field:focus-visible{
+    outline: none;
+    border: 1px solid red;
+    background-color: #9788dd38;
+}
+
+button.country {
+    margin: 3px 40px;
+    border: none;
+    padding: 5px 0px;
+    color: #d0c6e5;
+    background-color: transparent;
+}
+
+button.country:hover {
+    color: white;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+textarea.c-controller-field {
+    margin-top: 7px;
+    width: 60%;
+}
+
+button.send-button {
+    border: none;
+    background-color: #ff0000b8;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    color: white;
+}
+
+button.send-button:hover{
+    cursor: pointer;
+}
+
+input.not-valid:focus,
+input.not-valid:focus-visible{
+    border:2px solid red;
+    outline: none;
+}
